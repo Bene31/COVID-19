@@ -1,0 +1,106 @@
+CRITICAL - 2020-08-24 13:44:21 --> Call to undefined function App\Models\oci_connect()
+#0 C:\xampp\htdocs\arthur\app\Controllers\Home.php(13): App\Models\Conexao->Conectar()
+#1 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-24 13:45:40 --> Call to undefined function App\Models\oci_connect()
+#0 C:\xampp\htdocs\arthur\app\Controllers\Home.php(13): App\Models\Conexao->Conectar()
+#1 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-24 13:46:53 --> Call to undefined function App\Models\oci_connect()
+#0 C:\xampp\htdocs\arthur\app\Controllers\Home.php(13): App\Models\Conexao->Conectar()
+#1 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-24 13:46:54 --> Call to undefined function App\Models\oci_connect()
+#0 C:\xampp\htdocs\arthur\app\Controllers\Home.php(13): App\Models\Conexao->Conectar()
+#1 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-24 14:12:55 --> Call to undefined function App\Models\oci_connect()
+#0 C:\xampp\htdocs\arthur\app\Controllers\Home.php(13): App\Models\Conexao->Conectar()
+#1 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-24 14:37:31 --> Call to undefined function App\Models\oci_connect()
+#0 C:\xampp\htdocs\arthur\app\Controllers\Home.php(13): App\Models\Conexao->Conectar()
+#1 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-24 14:58:15 --> oci_execute(): ORA-00904: &quot;U&quot;.&quot;EMAIL_USUARIO&quot;: invalid identifier
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_execute(): ...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\arthur\app\Models\M_Usuario.php(169): oci_execute(Resource id #106)
+#2 C:\xampp\htdocs\arthur\app\Controllers\Login.php(27): App\Models\M_Usuario->AcessarSistema('F00001', 'ca24d5a6a75518e...')
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Login->Logar()
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-24 15:00:10 --> oci_execute(): ORA-00904: &quot;U&quot;.&quot;EMAIL_USUARIO&quot;: invalid identifier
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_execute(): ...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\arthur\app\Models\M_Usuario.php(169): oci_execute(Resource id #105)
+#2 C:\xampp\htdocs\arthur\app\Controllers\Login.php(27): App\Models\M_Usuario->AcessarSistema('F00001', 'ca24d5a6a75518e...')
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Login->Logar()
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-24 15:01:09 --> oci_execute(): ORA-00904: &quot;U&quot;.&quot;EMAIL_USUARIO&quot;: invalid identifier
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_execute(): ...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\arthur\app\Models\M_Usuario.php(169): oci_execute(Resource id #105)
+#2 C:\xampp\htdocs\arthur\app\Controllers\Login.php(27): App\Models\M_Usuario->AcessarSistema('F00001', 'ca24d5a6a75518e...')
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Login->Logar()
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-24 15:03:27 --> oci_execute(): ORA-00904: &quot;U&quot;.&quot;EMAIL_USUARIO&quot;: invalid identifier
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_execute(): ...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\arthur\app\Models\M_Usuario.php(169): oci_execute(Resource id #105)
+#2 C:\xampp\htdocs\arthur\app\Controllers\Login.php(27): App\Models\M_Usuario->AcessarSistema('F00001', 'ca24d5a6a75518e...')
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Login->Logar()
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-24 15:05:35 --> oci_execute(): ORA-00904: &quot;U&quot;.&quot;EMAIL_USUARIO&quot;: invalid identifier
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_execute(): ...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\arthur\app\Models\M_Usuario.php(169): oci_execute(Resource id #105)
+#2 C:\xampp\htdocs\arthur\app\Controllers\Login.php(28): App\Models\M_Usuario->AcessarSistema('F00001', 'terra95')
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Login->Logar()
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-24 15:05:38 --> oci_execute(): ORA-00904: &quot;U&quot;.&quot;EMAIL_USUARIO&quot;: invalid identifier
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_execute(): ...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\arthur\app\Models\M_Usuario.php(169): oci_execute(Resource id #105)
+#2 C:\xampp\htdocs\arthur\app\Controllers\Login.php(28): App\Models\M_Usuario->AcessarSistema('F00001', 'terra95')
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Login->Logar()
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-24 19:28:03 --> Array to string conversion
+#0 C:\xampp\htdocs\arthur\system\View\View.php(246): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include()
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('usuario/usuario', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Usuario.php(25): view('usuario/usuario')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Usuario->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

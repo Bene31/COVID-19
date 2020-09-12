@@ -1,0 +1,20 @@
+CRITICAL - 2020-08-13 20:59:51 --> Undefined variable: url_base
+#0 C:\xampp\htdocs\arthur\app\Views\include\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('include/header', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Home.php(11): view('include/header', Array)
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-13 21:00:11 --> Undefined variable: _SESSION
+#0 C:\xampp\htdocs\arthur\app\Views\include\menu.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('include/menu', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Home.php(13): view('include/menu')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

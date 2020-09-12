@@ -1,0 +1,78 @@
+CRITICAL - 2020-08-17 20:42:34 --> unlink(C:\xampp\htdocs\arthur\app\Controllers/../../assets/upload/0cc168239570cd05cf9720691b0632ca.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 94, Array)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(94): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(39): App\Controllers\Covid->ExcluirCOVID(Array)
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Covid->acao('remove-covid')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Covid))
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-17 20:42:34 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in C:\xampp\htdocs\arthur\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp\htdocs\arthur\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\arthur\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\arthur\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\arthur\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-17 20:45:06 --> Undefined variable: retorno
+#0 C:\xampp\htdocs\arthur\app\Models\M_Covid.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(17): App\Models\M_Covid->ListaCovid(14)
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Covid->index()
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Covid))
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-17 20:47:03 --> unlink(C:\xampp\htdocs\arthur\app\Controllers/../../assets/upload/7d08f54af56289c9b937c8948679cc3e.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 94, Array)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(94): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(39): App\Controllers\Covid->ExcluirCOVID(Array)
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Covid->acao('remove-covid')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Covid))
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-17 20:47:03 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in C:\xampp\htdocs\arthur\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp\htdocs\arthur\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\arthur\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\arthur\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\arthur\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-17 21:23:53 --> Undefined index: name
+#0 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 132, Array)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(50): App\Controllers\Covid->AtualizaArquivo(Array, Array)
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Covid->acao('atualizar-arqui...')
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Covid))
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-17 21:26:13 --> Undefined index: name
+#0 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 133, Array)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(50): App\Controllers\Covid->AtualizaArquivo(Array, Array)
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Covid->acao('atualizar-arqui...')
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Covid))
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-17 21:35:48 --> Too few arguments to function App\Controllers\Download::index(), 0 passed in C:\xampp\htdocs\arthur\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Download->index()
+#1 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-17 21:38:36 --> readfile(C:\xampp\htdocs\arthur\app\Controllers/../../assets/upload/meu-arquivo): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\xam...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Download.php(14): readfile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Download->baixar('meu-arquivo')
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,21 @@
+CRITICAL - 2020-08-22 19:38:37 --> Call to undefined function App\Models\oci_connect()
+#0 C:\xampp\htdocs\arthur\app\Controllers\Home.php(13): App\Models\Conexao->Conectar()
+#1 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-22 19:38:50 --> Call to undefined function App\Models\oci_connect()
+#0 C:\xampp\htdocs\arthur\app\Controllers\Home.php(13): App\Models\Conexao->Conectar()
+#1 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-22 19:39:28 --> Call to undefined function App\Models\oci_connect()
+#0 C:\xampp\htdocs\arthur\app\Controllers\Home.php(13): App\Models\Conexao->Conectar()
+#1 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

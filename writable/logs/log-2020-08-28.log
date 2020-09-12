@@ -1,0 +1,194 @@
+CRITICAL - 2020-08-28 13:36:22 --> Undefined index: id_setor
+#0 C:\xampp\htdocs\arthur\app\Views\include\menu.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('include/menu', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Home.php(27): view('include/menu')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 13:36:27 --> Undefined index: cd_setor
+#0 C:\xampp\htdocs\arthur\app\Views\include\menu.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('include/menu', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Home.php(27): view('include/menu')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 13:46:45 --> Undefined index: setor
+#0 C:\xampp\htdocs\arthur\app\Views\inicio.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('inicio', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Home.php(29): view('inicio')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 17:50:37 --> Undefined variable: lista_setor
+#0 C:\xampp\htdocs\arthur\app\Views\inicio.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('inicio', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Home.php(29): view('inicio')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 17:51:39 --> Undefined variable: lista_setor
+#0 C:\xampp\htdocs\arthur\app\Views\inicio.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('inicio', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Home.php(29): view('inicio')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 17:57:52 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('inicio', Array, true)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Home.php(29): view('inicio')
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-28 17:57:57 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('inicio', Array, true)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Home.php(29): view('inicio')
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-28 17:58:39 --> Undefined index: telefone
+#0 C:\xampp\htdocs\arthur\app\Views\inicio.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('inicio', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Home.php(29): view('inicio')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 18:14:13 --> Undefined index: codigo_setor
+#0 C:\xampp\htdocs\arthur\app\Views\include\menu.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('include/menu', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Usuario.php(24): view('include/menu')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Usuario->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 18:14:19 --> Undefined index: codigo_setor
+#0 C:\xampp\htdocs\arthur\app\Views\include\menu.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('include/menu', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Usuario.php(24): view('include/menu')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Usuario->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 18:14:22 --> Undefined index: codigo_setor
+#0 C:\xampp\htdocs\arthur\app\Views\include\menu.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('include/menu', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Usuario.php(24): view('include/menu')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Usuario->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 18:14:25 --> Undefined index: codigo_setor
+#0 C:\xampp\htdocs\arthur\app\Views\include\menu.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('include/menu', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Usuario.php(24): view('include/menu')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Usuario->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 18:16:26 --> Undefined index: codigo_setor
+#0 C:\xampp\htdocs\arthur\app\Views\usuario\perfil.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('usuario/perfil', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Usuario.php(26): view('usuario/perfil')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Usuario->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 18:51:00 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\arthur\app\Views\usuario\perfil.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('usuario/perfil', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Perfil.php(25): view('usuario/perfil')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Perfil->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfil))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 18:53:44 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\arthur\app\Views\usuario\perfil.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('usuario/perfil', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Perfil.php(25): view('usuario/perfil')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Perfil->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfil))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 18:54:06 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\arthur\app\Views\usuario\perfil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('usuario/perfil', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Perfil.php(25): view('usuario/perfil')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Perfil->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfil))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 19:22:55 --> Undefined index: m
+#0 C:\xampp\htdocs\arthur\app\Views\usuario\perfil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('usuario/perfil', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Perfil.php(25): view('usuario/perfil')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Perfil->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfil))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 19:22:59 --> Undefined index: m
+#0 C:\xampp\htdocs\arthur\app\Views\usuario\perfil.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('usuario/perfil', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Perfil.php(25): view('usuario/perfil')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Perfil->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfil))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 19:35:02 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('usuario/perfil', Array, true)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Perfil.php(25): view('usuario/perfil')
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Perfil->index()
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfil))
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-28 19:37:20 --> Undefined index: dt_nascimento
+#0 C:\xampp\htdocs\arthur\app\Views\usuario\perfil.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('usuario/perfil', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Perfil.php(25): view('usuario/perfil')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Perfil->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfil))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,152 @@
+CRITICAL - 2020-08-29 20:01:16 --> session_start(): Cannot start session when headers already sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_start()...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\arthur\app\Controllers\BaseController.php(16): session_start()
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-29 20:01:16 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\arthur\app\Config\Events.php:27) in C:\xampp\htdocs\arthur\system\Debug\Exceptions.php:162
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 162, Array)
+#1 C:\xampp\htdocs\arthur\system\Debug\Exceptions.php(162): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-29 20:02:26 --> session_start(): Cannot start session when headers already sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_start()...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\arthur\app\Controllers\BaseController.php(16): session_start()
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-29 20:02:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\arthur\app\Config\Events.php:27) in C:\xampp\htdocs\arthur\system\Debug\Exceptions.php:162
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 162, Array)
+#1 C:\xampp\htdocs\arthur\system\Debug\Exceptions.php(162): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-29 20:23:36 --> unlink(C:\xampp\htdocs\arthur\app\Controllers/../../assets/upload/COVID-19 Cases 03ago2020.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 154, Array)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(154): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(50): App\Controllers\Covid->AtualizaArquivo(Array, Array)
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Covid->acao('atualizar-arqui...')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Covid))
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-29 20:25:37 --> unlink(C:\xampp\htdocs\arthur\app\Controllers/../../assets/upload/COVID-19 Cases 03ago2020.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 154, Array)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(154): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(50): App\Controllers\Covid->AtualizaArquivo(Array, Array)
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Covid->acao('atualizar-arqui...')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Covid))
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-29 20:28:54 --> unlink(C:\xampp\htdocs\arthur\app\Controllers/../../assets/upload/COVID-19 Cases 03ago2020.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 154, Array)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(154): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(50): App\Controllers\Covid->AtualizaArquivo(Array, Array)
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Covid->acao('atualizar-arqui...')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Covid))
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-29 20:29:41 --> unlink(C:\xampp\htdocs\arthur\app\Controllers/../../assets/upload/COVID-19 Cases 03ago2020.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 154, Array)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(154): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(50): App\Controllers\Covid->AtualizaArquivo(Array, Array)
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Covid->acao('atualizar-arqui...')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Covid))
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-29 20:29:55 --> unlink(C:\xampp\htdocs\arthur\app\Controllers/../../assets/upload/COVID-19 Cases 03ago2020.xlsx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 154, Array)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(154): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(50): App\Controllers\Covid->AtualizaArquivo(Array, Array)
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Covid->acao('atualizar-arqui...')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Covid))
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-29 20:33:50 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\arthur\app\Models\M_Covid.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(126): App\Models\M_Covid->AtualizarFonteCovid('14')
+#2 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(44): App\Controllers\Covid->AtualizarFonte(Array)
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Covid->acao('atualizar-site-...')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Covid))
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-29 20:34:03 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\arthur\app\Models\M_Covid.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(126): App\Models\M_Covid->AtualizarFonteCovid('14')
+#2 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(44): App\Controllers\Covid->AtualizarFonte(Array)
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Covid->acao('atualizar-site-...')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Covid))
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-29 20:45:43 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\arthur\app\Models\M_Covid.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(126): App\Models\M_Covid->AtualizarFonteCovid('14')
+#2 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(44): App\Controllers\Covid->AtualizarFonte(Array)
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Covid->acao('atualizar-site-...')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Covid))
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-29 20:49:37 --> Too few arguments to function App\Models\M_Covid::AtualizarFonteCovid(), 1 passed in C:\xampp\htdocs\arthur\app\Controllers\Covid.php on line 126 and exactly 2 expected
+#0 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(126): App\Models\M_Covid->AtualizarFonteCovid('14')
+#1 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(44): App\Controllers\Covid->AtualizarFonte(Array)
+#2 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Covid->acao('atualizar-site-...')
+#3 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Covid))
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-29 21:11:46 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-29 21:11:46 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-29 21:11:47 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-29 21:11:47 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-29 21:11:47 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-29 21:11:47 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-29 21:55:31 --> Undefined index: usuario
+#0 C:\xampp\htdocs\arthur\app\Views\covid\covid.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('covid/covid', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(22): view('covid/covid')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Covid->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Covid))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-29 21:55:44 --> Undefined index: usuario
+#0 C:\xampp\htdocs\arthur\app\Views\covid\covid.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\arthur\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arthur\system\Common.php(1087): CodeIgniter\View\View->render('covid/covid', Array, true)
+#3 C:\xampp\htdocs\arthur\app\Controllers\Covid.php(22): view('covid/covid')
+#4 C:\xampp\htdocs\arthur\system\CodeIgniter.php(914): App\Controllers\Covid->index()
+#5 C:\xampp\htdocs\arthur\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Covid))
+#6 C:\xampp\htdocs\arthur\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arthur\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
