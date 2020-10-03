@@ -15,7 +15,7 @@
 	<section class="content">
 		<div class="container-fluid">
 			<iframe width="1500" height="900" 
-			src="https://app.powerbi.com/view?r=eyJrIjoiYzgyN2QxNzUtNWMyYy00MGViLTk0MmYtZGIzN2Y2NmFkMzEzIiwidCI6ImRhZjBiNzk3LTFjYjYtNGMzOC04MzY3LWY3MzUyMTcxYWE3OSJ9&pageName=ReportSection"
+			src="https://app.powerbi.com/view?r=eyJrIjoiYzgyN2QxNzUtNWMyYy00MGViLTk0MmYtZGIzN2Y2NmFkMzEzIiwidCI6ImRhZjBiNzk3LTFjYjYtNGMzOC04MzY3LWY3MzUyMTcxYWE3OSJ9&pageName=ReportSection84e6447061e0c5703ab9"
 			frameborder="0" allowFullScreen="true"></iframe>" 
 		</div>
 	</section>
